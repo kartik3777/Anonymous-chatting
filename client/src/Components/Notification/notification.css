@@ -1,0 +1,61 @@
+
+/* .noti-out{
+    margin-left: 200px;
+    border: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    visibility: hidden;
+} */
+.single-noti{
+    /* border: 1px solid blue; */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.noti-img-box{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: lightgray;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    object-fit:scale-down;
+}
+.noti-img-box img{
+    height: 60px;
+}
+.noti-name-msg{
+    width: auto;
+    max-width: 340px;
+}
+.noti-name{
+    font-weight: 600;
+    padding-right: 5px;
+}
+.noti-time{
+    font-size: 12px;
+    color: rgb(54, 54, 54);
+}
+.noti-btn{
+    outline: none;
+    border: none;
+    /* background-color: rgb(237, 237, 237); */
+    background-color: rgb(79, 79, 255);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.noti-btn-box{
+    display: flex;
+    gap: 8px;
+}

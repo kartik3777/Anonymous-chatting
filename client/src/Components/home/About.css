@@ -1,0 +1,31 @@
+
+.about-main{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(245, 254, 255));
+    border-top: 1px solid rgb(225, 215, 215);
+}
+.about{
+    min-height: 150px;
+    width: 50vw;
+    padding: 15px;
+   /* background: linear-gradient(to top left, rgb(237, 249, 249),white, rgb(252, 245, 245)); */
+   background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(203, 203, 203);
+    margin: 40px;
+    border-radius: 10px;
+}
+.about h3{
+    color: rgb(64, 17, 182);
+}
+.about p{
+    line-height: 25px;
+    font-size: 16px;
+}
+.about-2, .about-4{
+    margin-left: 30vw;
+}
+.about-head{
+    text-align: center;
+    font-size: 30px;
+    margin-right: 50px;
+   
+}

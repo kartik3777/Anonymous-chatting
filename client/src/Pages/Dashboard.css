@@ -1,0 +1,19 @@
+
+.dash-outer{
+    height: 100vh;
+    background-color: rgb(211, 211, 211);
+    display: grid;
+    grid-template-columns: 200px 1fr; 
+    /* it means 200px fixed and 1 fr means jo bacha hai uska pura fraction */
+    /* agar do vertical me bhi krne ho to grid-template-row: 60px 1fr krke kr skte */
+}
+.content-outer{
+    background-color: rgb(219, 246, 255);
+    height: 100vh;
+    overflow-y: scroll;
+    /* position: relative; */
+}
+.content-outer::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+  }
