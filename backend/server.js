@@ -11,7 +11,7 @@ const { ConversationModel, MessageModel } = require('./models/conversationModel'
 const server = require('http').createServer(app);
 const io = require('socket.io')(server, {
   cors: {
-    origin : 'http://localhost:3000',
+    origin : 'https://anonymous-chatting-eight.vercel.app',
       methods:["GET", "POST", "PATCH", "DELETE"],
       credentials: true
   }

@@ -13,7 +13,7 @@ const app = express();
 app.use(cookieParser());
 app.use(cors(
   {
-      origin :'http://localhost:3000',
+      origin :'https://anonymous-chatting-eight.vercel.app',
       methods:["GET", "POST", "PATCH", "DELETE"],
       credentials: true
   }

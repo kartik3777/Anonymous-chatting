@@ -40,7 +40,7 @@ function Login() {
         saveState(store.getState());
         localStorage.setItem('token', res.data.token);
 
-                navigate("/nav")
+                navigate("/nav/home");
     }).catch(err => {
         console.log(err);
      alert("error occured")
