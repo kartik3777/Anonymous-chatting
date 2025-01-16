@@ -13,9 +13,14 @@ body {
 .out-cont {
     height: 100vh;
     width: 100vw;
+    position: relative;
    /* background: linear-gradient(to top left, rgb(2, 2, 73), black); */
    background: linear-gradient(to top left, rgb(221, 221, 221), rgb(144, 227, 217), rgb(234, 219, 207));
-  
+}
+.test-user{
+    position: absolute;
+    top: 20px;
+    text-align: center;
 }
 
 .main-login {

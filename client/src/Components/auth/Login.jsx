@@ -70,6 +70,13 @@ function Login() {
     // <div>
        
        <div className="out-cont center">
+        <p className='test-user'>
+            Details of test_users
+            <br />
+            Email: test@20, Password: 100
+            <br />
+            Email: test@100, Password: 100
+        </p>
        <div className="main-login">
 
             <div className="inside-box">
