@@ -31,7 +31,7 @@ function Login() {
    }
    axios.defaults.withCredentials = true;
    function handleLogin(){
-    axios.post("http://localhost:8000/api/v1/users/login", {"email": loginData.email, "password": loginData.password})
+    axios.post("https://anonymous-chatting-hz91.vercel.app/api/v1/users/login", {"email": loginData.email, "password": loginData.password})
     .then(res => {
         console.log("login data");
         console.log(res.data);
