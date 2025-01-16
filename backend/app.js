@@ -33,6 +33,7 @@ const limiter = rateLimit({
   windowMs: 60*60*1000,
   message: "Too many requests from this IP, try again after an hour"
 });
+
 app.use('/api', limiter);
 app.use((req, res, next) => {
   req.requestTime =  new Date().toISOString();
@@ -41,7 +42,11 @@ app.use((req, res, next) => {
   next();
 })
 
-
+app.get("/", (req, res) => {
+  res.json({
+    message:"api is working"
+  })
+})
 app.use('/api/v1/users', userRouter);
 // app.use('/api/v1/singup', userRouter);
 
